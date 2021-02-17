@@ -1,0 +1,1 @@
+My project for the course will aim at handling high performance data file fomats, primarily TDMS and secondly HDF5. My goal will be to be able to use both file formats as an input to my analysis code, being followed by representation in efficient data structure within the analysis code and some initial analysis would plot my test data into a 2D plot.
