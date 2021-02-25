@@ -8,7 +8,7 @@ import os
 
 path = os.getcwd()
 print(path)
-filepath=str(path)+'\Sample data\\run030.tdms'
+filepath=str(path)+'\Data\\run030.tdms'
 tdms_file = TdmsFile.read(filepath)
 
 traces=[]
@@ -22,12 +22,26 @@ mygroup = tdms_file['Time Trace']
 all_group_channels = mygroup.channels()
 all_group_channels
 
-channel_moving=["moving"]
-channel_moving
-all_channel_data = channel_moving[:]
-all_channel_data
+moving=mygroup['moving']
+delay=mygroup['delay/ps']
+intensity=mygroup['Intensity/nA']
 
 
+import matplotlib.pyplot as plt 
+  
+rat=int(len(delay)/len(moving))
+plt.plot(delay[0:rat], intensity[0:rat]) 
+plt.show() 
+
+# a=delay[0:rat]
+# b=delay[rat:(rat)*2]
+# c=delay[rat*160:rat*161]
+# b==c
+
+# a=intensity[0:rat]
+# b=intensity[rat:(rat)*2]
+# c=intensity[rat*3:rat*4]
+# a==c
 # # get number of groups
 
 # group = tdms_file['Time Trace 1']

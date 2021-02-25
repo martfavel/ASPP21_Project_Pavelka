@@ -3,3 +3,8 @@ My project for the course will aim at handling high performance data file fomats
 Update 01:
 
 The code will first import TDMS file data. These data will be then categorized with pandas. As output, basic 2D graph will be created, accompanied by 1D graphs of some of accompanying metadata. This graph together with further data processing (such as Fourier transform and statistical treatement) will be saved in a hdf5 file.
+
+Update 02:
+
+Now I am working on the project from my local folder
+Current goal is to load TDMS file into readable arrays
