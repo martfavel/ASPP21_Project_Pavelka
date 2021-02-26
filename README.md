@@ -21,5 +21,11 @@ Update 05:
 
 Saving the raw data togetehr with basic saving of processed data into one HDF5 file was added.
 
+Main plot:
+
 ![alt text](https://github.com/martfavel/ASPP21_Project_Pavelka/blob/main/Figures/Example01.png)
+
+Time-trace analysis plot:
+
+![alt text](https://github.com/martfavel/ASPP21_Project_Pavelka/blob/main/Figures/Figure_1.png)
 
