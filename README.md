@@ -6,5 +6,8 @@ The code will first import TDMS file data. These data will be then categorized w
 
 Update 02:
 
-Now I am working on the project from my local folder
-Current goal is to load TDMS file into readable arrays
+Now I am working on the project from my local folder.
+Current goal is to load TDMS file into readable arrays.
+
+Update 03:
+I am now able to load and plot my data. Now I will represent them trough pandas, so that I can plot 2D plot along with humidity and position
