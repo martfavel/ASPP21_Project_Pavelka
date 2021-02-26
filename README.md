@@ -20,3 +20,6 @@ Functions to find zero-crossings and peaks were added.
 Update 05:
 
 Saving the raw data togetehr with basic saving of processed data into one HDF5 file was added.
+
+![alt text](https://github.com/martfavel/ASPP21_Project_Pavelka/blob/main/Figures/Example01.png)
+
