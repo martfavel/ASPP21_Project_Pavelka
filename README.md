@@ -10,4 +10,13 @@ Now I am working on the project from my local folder.
 Current goal is to load TDMS file into readable arrays.
 
 Update 03:
-I am now able to load and plot my data. Now I will represent them trough pandas, so that I can plot 2D plot along with humidity and position
+I am now able to load and plot my data. The plots are saved in folder Figures.
+2D plot along with humidity and position is one of them.
+
+Update 04:
+
+Functions to find zero-crossings and peaks were added.
+
+Update 05:
+
+Saving the raw data togetehr with basic saving of processed data into one HDF5 file was added.
